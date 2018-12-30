@@ -5,16 +5,16 @@
   "dependencies": {
     "auth0-js": "^9.8.2",
     "axios": "^0.18.0",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.0",
     "file-saver": "^2.0.0",
     "history": "^4.7.2",
     "html2canvas": "^1.0.0-alpha.12",
-    "jspdf": "^1.4.1",
+    "jspdf": "^1.5.3",
     "jwt-decode": "^2.2.0",
-    "node-sass": "^4.10.0",
-    "react": "^16.6.1",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
     "react-bootstrap": "^0.32.4",
-    "react-dom": "^16.6.1",
+    "react-dom": "^16.7.0",
     "react-redux": "^5.1.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
@@ -27,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-prebuild":"npm cache verify"
+    "heroku-prebuild": "npm cache verify"
   },
   "engines": {
     "node": "8.11.3",
