@@ -12,7 +12,7 @@ export default ()=>{
                </Col>
            </Row>
            <Row className='row-eq-height'>
-               <Col md={3} className='pricing-block'>
+               <Col md={3} xs={12} className='pricing-block'>
                     <h4>Individual</h4>
                     <ul>
                         <li>1 Template</li>
@@ -25,7 +25,7 @@ export default ()=>{
                         <Button className='drop-shadow' href='mailto:voice@haydenwade.com?subject=Pricing &body=Hi, can i get a quote for...'>Request Pricing</Button>
                     </div>
                </Col>
-               <Col md={3} className='pricing-block'>
+               <Col md={3} xs={12} className='pricing-block'>
                     <h4>Startup</h4>
                     <ul>
                         <li>1-2 Templates</li>
@@ -37,7 +37,7 @@ export default ()=>{
                     <div className='text-center'>
                         <Button className='drop-shadow' href='mailto:voice@haydenwade.com?subject=Pricing &body=Hi, can i get a quote for...'>Request Pricing</Button>
                     </div>               </Col>
-               <Col md={3} className='pricing-block'>
+               <Col md={3} xs={12} className='pricing-block'>
                     <h4>Enterprise</h4>
                     <ul>
                         <li>1-5 Templates</li>
@@ -51,7 +51,7 @@ export default ()=>{
                     <div className='text-center'>
                         <Button className='drop-shadow' href='mailto:voice@haydenwade.com?subject=Pricing &body=Hi, can i get a quote for...'>Request Pricing</Button>
                     </div>               </Col>
-               <Col md={3} className='pricing-block'>
+               <Col md={3}  xs={12} className='pricing-block'>
                     <h4>Enterprise Plus</h4>
                     <ul>
                         <li>5+ Templates</li>
