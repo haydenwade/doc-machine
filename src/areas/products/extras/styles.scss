@@ -1,0 +1,24 @@
+.drop-shadow {
+    box-shadow: 15px 15px 10px rgb(47, 138, 212);
+}
+.pricing-block{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding-bottom: 5em;
+    margin-right:10px;
+    margin-left:10px;
+    padding-right:10px;
+    padding-left:10px;
+}
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+
+.right-pad {
+    padding-right: 2em;
+}

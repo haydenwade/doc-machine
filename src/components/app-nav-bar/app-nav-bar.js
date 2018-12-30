@@ -19,6 +19,9 @@ const navBar = (props)=>{
             <Navbar.Text pullRight>Have a great day!</Navbar.Text> */}
             <Nav pullRight>
             <NavItem>
+              <Link to='/products'>Products</Link>
+            </NavItem>
+            <NavItem>
               <Link to='/builder'>Builder</Link>
             </NavItem>
                 <NavItem >

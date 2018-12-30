@@ -6,6 +6,7 @@ import {createStore} from './store/store';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
+import 'font-awesome/css/font-awesome.min.css';
 import './index.css';
 
 import * as serviceWorker from './serviceWorker';
@@ -21,6 +22,7 @@ import Builder from './areas/resume-builder/builder';
 import SampleTemplate from './areas/sample-template';
 import PreviewResume from './areas/preview-resume';
 import ExportDocument from './areas/export-document';
+import Products from './areas/products';
 
 const store = createStore();
 
@@ -33,6 +35,7 @@ ReactDOM.render(
                 <Auth.PrivateRoute path='/previewer' component={WithPageLayout(PreviewResume)}/>
                 <Auth.PrivateRoute path='/export' component={ExportDocument}/>
                 <Route exact path='/sample' component={SampleTemplate}/>
+                <Route exact path='/products' component={WithPageLayout(Products)}/>
                 <Route path='/login' component={Auth.Login}/>
                 <Route path='/callback' component={Auth.Callback} />
                 <Route path='*' component={WithPageLayout(NotFound)}/>

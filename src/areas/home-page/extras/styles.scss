@@ -1,0 +1,21 @@
+.underline-text{
+    text-decoration: underline rgb(47, 138, 212);
+}
+
+.drop-shadow {
+    box-shadow: 15px 15px 10px rgb(47, 138, 212);
+}
+.top-padding{
+    padding-top: 5%;
+}
+.spin {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
