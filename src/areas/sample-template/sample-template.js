@@ -8,7 +8,7 @@ export default (props) => {
         <Grid id='thedoc' className='resume' fluid={true}>
             <Row className='top-row'>
                 <Col xs={6} sm={6} md={6}>
-                    <img height={75} src='assets/greatnesscoLogo.png' alt='logo'/>
+                    <img id='companylogo' height={75} src='assets/greatnesscoLogo.png' alt='logo'/>
                 </Col>
                 <Col xs={6} sm={6} md={6}>
                     <div className="pull-right address">

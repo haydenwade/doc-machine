@@ -4,7 +4,7 @@ const config = {
         domain:'wawe-llc.auth0.com',
         clientID:'7J2Ci59hHvR6SR4AaKbhOPdn5t7G6vk5',
         redirectUri:'http://localhost:3000/callback',
-        audience:''
+        audience:'http://docmachine.com'
     },
     docsApi: 'http://localhost:3001'
 };
