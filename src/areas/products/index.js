@@ -11,7 +11,7 @@ export default ()=>{
                     <h1>Document Generator</h1>
                </Col>
            </Row>
-           <Row className='row-eq-height'>
+           <Row>
                <Col md={3} xs={12} className='pricing-block'>
                     <h4>Individual</h4>
                     <ul>
@@ -20,6 +20,8 @@ export default ()=>{
                         <li>Mobile Access</li>
                         <li>Secure Document Generation</li>
                         <li>1 User Accounts</li>
+                        <li className='no-bullet'></li>
+                        <li className='no-bullet'></li>
                     </ul>
                     <div className='text-center'>
                         <Button className='drop-shadow' href='mailto:voice@haydenwade.com?subject=Pricing &body=Hi, can i get a quote for...'>Request Pricing</Button>
@@ -33,10 +35,13 @@ export default ()=>{
                         <li>Mobile Access</li>
                         <li>Secure Document Generation</li>
                         <li>10 User Accounts</li>
+                        <li className='no-bullet'></li>
+                        <li className='no-bullet'></li>
                     </ul>
                     <div className='text-center'>
                         <Button className='drop-shadow' href='mailto:voice@haydenwade.com?subject=Pricing &body=Hi, can i get a quote for...'>Request Pricing</Button>
-                    </div>               </Col>
+                    </div>               
+                </Col>
                <Col md={3} xs={12} className='pricing-block'>
                     <h4>Enterprise</h4>
                     <ul>
@@ -50,8 +55,9 @@ export default ()=>{
                     </ul>
                     <div className='text-center'>
                         <Button className='drop-shadow' href='mailto:voice@haydenwade.com?subject=Pricing &body=Hi, can i get a quote for...'>Request Pricing</Button>
-                    </div>               </Col>
-               <Col md={3}  xs={12} className='pricing-block'>
+                    </div>               
+                </Col>
+               <Col md={3} xs={12}>
                     <h4>Enterprise Plus</h4>
                     <ul>
                         <li>5+ Templates</li>
@@ -60,7 +66,6 @@ export default ()=>{
                         <li>Secure Document Generation</li>
                         <li>2 Year Document Retention</li>
                         <li>Document Management</li>
-                        <li>CRM Integration</li>
                         <li>Unlimited User Accounts</li>
                     </ul>
                     <div className='text-center'>

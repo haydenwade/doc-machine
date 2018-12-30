@@ -7,13 +7,13 @@ export default () => {
     return (
         <Grid>
             <Row>
-                <Col md={6} xs={12}>
+                <Col md={6} xs={12} style={{'padding-bottom':'20px'}}>
                     <h1 className='underline-text'>Great documents are created by great tools.</h1><h2><strong>Doc Machine</strong> utilizes first in class technology and customer defined templates to
                     deliver clean and consistent documents.</h2>
                     <Button href='/products' className='drop-shadow' bsSize='large'>Products</Button>
                 </Col>
-                <Col md={6} xs={12}>
-                    <img src='assets/resumecoffee.jpg' alt='picture of a resume, coffee, laptop' height={375}/>
+                <Col md={6} xs={12} className='home-img-col'>
+                    <img  src='assets/resumecoffee.jpg' alt='picture of a resume, coffee, laptop' height='375'/>
                 </Col>
             </Row>
             <Row className='top-padding'>
